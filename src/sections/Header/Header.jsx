@@ -5,7 +5,7 @@ import "./Header.css";
 import logo from "../../assets/pratham.png";
 
 const Header = () => {
-  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  const [isNavCollapsed, setIsNavCollapsed] = useState(false);
 
   const handleNavToggle = () => {
     setIsNavCollapsed(!isNavCollapsed);

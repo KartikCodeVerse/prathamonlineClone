@@ -1,0 +1,14 @@
+.clat_section {
+  padding: 50px 100px;
+}
+
+.clat-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 30px 0;
+}
+
+.clat-des p{
+    font-weight: 400;
+    font-size: 0.87rem;
+}

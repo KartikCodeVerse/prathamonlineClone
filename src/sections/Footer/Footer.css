@@ -1,0 +1,196 @@
+.footer {
+  font-size: 0.875rem;
+  color: rgb(255, 255, 255);
+  line-height: 1.714;
+}
+
+.sec_container {
+  padding: 0 100px;
+  margin: 0 auto;
+}
+
+.footer_row1 {
+  padding: 60px 0 40px;
+  background-color: #808080;
+  font-size: small;
+  font-weight: 100;
+}
+
+.row {
+  display: flex;
+  
+  flex-wrap: wrap;
+}
+.col1,
+.col2,
+.col3,
+.col4 {
+  width: 20%;
+  padding: 0 15px;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.col1 p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.logo_img {
+  width: 180px;
+  margin-bottom: 25px;
+}
+
+.logo_img img {
+  width: 100%;
+}
+
+.social_heading {
+  font-size: 0.875rem;
+  color: #fff;
+  line-height: 1.714;
+  margin-bottom: 20px;
+}
+.social_icons {
+  display: flex;
+  font-size: 20px;
+}
+
+.social_icons a {
+  padding-right: 10px;
+}
+
+.social_icon img {
+  max-width: 100%;
+}
+
+.col1 a {
+  color: white;
+}
+
+/* col2 */
+
+.col_heading {
+  padding: 0 10px;
+}
+
+.col_heading h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.col ul {
+  margin-bottom: 1rem;
+  list-style-type: none;
+}
+
+.col ul li {
+  padding: 0px 0 14px 0;
+}
+
+.col ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+}
+
+.col ul li a span {
+  padding-left: 10px;
+}
+
+/* col4 */
+
+.col4 .contact {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.contact_icons {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+/* footer_row2 */
+
+.footer_row2 {
+  padding: 30px 0 30px;
+  background-color: #3b3c3e;
+}
+
+.footer2_heading h3 {
+  font-size: 0.875rem;
+  color: #fff;
+  line-height: 1.714;
+  margin-bottom: 20px;
+}
+.partners {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.partner {
+  width: 300px;
+  height: 100px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+.partner a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 14px;
+}
+
+h3 {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+h3::after {
+  content: "";
+  width: 50%;
+  position: absolute;
+  height: 4px;
+  border-radius: 1px;
+  background: #f9b618;
+  left: 0;
+  bottom: -20px;
+}
+
+@media (max-width: 1000px) {
+  .logo_img {
+    width: 180px;
+    margin-bottom: 60px;
+  }
+  .footer_container {
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+  .col1,
+  .col2,
+  .col3,
+  .col4 {
+    width: 40%;
+    padding: 37px 18px;
+  }
+}
+
+@media (max-width: 1000px) {
+ 
+  .col1,
+  .col2,
+  .col3,
+  .col4 {
+    width: 100%;
+   
+  }
+}

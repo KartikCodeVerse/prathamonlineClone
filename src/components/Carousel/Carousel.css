@@ -1,0 +1,20 @@
+/* CarouselComponent.css */
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  color: #000; /* Customize arrow color */
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #000; /* Customize dot color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #00c3ff; /* Customize active dot color */
+}
+
+.slick-slide img {
+  width: 100%;
+  display: block;
+}

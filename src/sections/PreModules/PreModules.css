@@ -1,0 +1,25 @@
+.preModules_section {
+  padding-top: 30px;
+  color: white;
+  background-color: #081054;
+}
+
+.modules_row {
+  display: flex;
+  flex-direction: column;
+}
+
+.modules_row h3 {
+  width: 250px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.modules {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+

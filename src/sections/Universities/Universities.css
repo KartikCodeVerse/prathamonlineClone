@@ -1,0 +1,28 @@
+.universities_sections {
+  padding: 30px 0;
+}
+
+.universities_heading {
+  margin-bottom: 40px;
+}
+
+.universities_heading h3 {
+  font-size: large;
+  color: #0d3d6b;
+}
+
+.universities_img {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.img_item {
+  width: 160px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.img_item img {
+  width: 120px;
+}

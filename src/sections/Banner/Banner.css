@@ -1,0 +1,47 @@
+.banner {
+  background-color: #081054;
+  padding: 140px 0 0;
+}
+
+.banner-container {
+  padding: 15px 0;
+}
+
+.banner-mobile {
+  display: none;
+}
+.banner-mobile img {
+  width: 100%;
+}
+.banner-img {
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 80vw;
+}
+
+.directory {
+  color: white;
+  margin-top: 20px;
+}
+
+.directory span {
+  padding: 0 115px;
+}
+
+@media (max-width: 600px) {
+  .slider-banner {
+    display: contents;
+  }
+  .banner-mobile {
+    display: block;
+  }
+  .banner-img {
+    display: none;
+  }
+  .directory {
+    margin: 0;
+  }
+  .directory span {
+    padding: 0 10px;
+  }
+}
